@@ -1,7 +1,6 @@
-// Importa pacote express
+
 const express = require('express');
 const calc = require('./atividade3/calculadora');
-// Cria uma aplicação express
 const app = express();
 
 app.get('/', function(req, res){
